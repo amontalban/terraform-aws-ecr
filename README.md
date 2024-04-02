@@ -137,7 +137,7 @@ module "ecr_registry" {
     dockerhub = {
       ecr_repository_prefix = "dockerhub"
       upstream_registry_url = "registry-1.docker.io"
-      credential_arn        = "arn:aws:secretsmanager:us-east-1:123456789:secret:ecr-pullthroughcache/dockerhub"
+      credentials_arn        = "arn:aws:secretsmanager:us-east-1:123456789:secret:ecr-pullthroughcache/dockerhub"
     }
   }
 
